@@ -8,6 +8,7 @@ c=0
 try:    
     while True:
         x=pyautogui.position()
+        #print current location of mouse pointer
         print (x)
        
 except KeyboardInterrupt:
